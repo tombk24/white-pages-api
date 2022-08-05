@@ -1,4 +1,4 @@
-package exception;
+package com.borthwick.whitepagesapplication.exception;
 
 import lombok.AllArgsConstructor;
 

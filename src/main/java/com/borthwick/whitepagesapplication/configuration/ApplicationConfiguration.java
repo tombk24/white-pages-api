@@ -1,6 +1,6 @@
 package com.borthwick.whitepagesapplication.configuration;
 
-import com.borthwick.whitepagesapplication.WhitePageClient;
+import com.borthwick.whitepagesapplication.connection.WhitePageClient;
 import com.borthwick.whitepagesapplication.controller.WhitePagesController;
 import com.borthwick.whitepagesapplication.service.WhitePagesService;
 import org.springframework.context.annotation.Bean;

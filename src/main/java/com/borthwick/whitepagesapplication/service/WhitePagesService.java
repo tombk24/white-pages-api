@@ -1,7 +1,7 @@
 package com.borthwick.whitepagesapplication.service;
 
-import com.borthwick.whitepagesapplication.WhitePageClient;
-import exception.WhitepagesException;
+import com.borthwick.whitepagesapplication.connection.WhitePageClient;
+import com.borthwick.whitepagesapplication.exception.WhitepagesException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

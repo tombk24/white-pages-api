@@ -1,10 +1,22 @@
-package com.borthwick.whitepagesapplication;
+package com.borthwick.whitepagesapplication.connection;
 
 import java.net.Socket;
 
 public class WhitePageClient {
 
     private Socket whitepagesSocket;
+
+    private volatile State state;
+
+    public enum State {
+        IDLE, ERROR, RUNNING, STOPPED
+    }
+
+    public void start(){
+        if(state != State.RUNNING) {
+            // Open connection to socket
+        }
+    }
 
     public String sendNameRequest(String name){
         // If connection is alive, send the message.
